@@ -8,8 +8,11 @@
 .page-numberList li {
   margin-right: 10px;
 }
-a {
+.page-numberList a {
   color: black;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 2em;
+}
+.page-numberList a:active{
+  border-bottom: 1px solid black;
 }

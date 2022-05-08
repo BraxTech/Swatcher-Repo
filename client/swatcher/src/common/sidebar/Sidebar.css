@@ -1,5 +1,5 @@
 .Sidebar {
-  border: 0px 1px solid gray;
+  border: 2px solid whitesmoke;
   background-color: rgb(214, 216, 216);
   width: 15vw;
   height: 93.5vh;
@@ -9,19 +9,34 @@
 }
 .button {
   display: block;
-  margin: 10% 17.5%;
-  height: 4%;
-  width: 60%;
+ margin-top:25%;
+ margin-left: 10%;
+  height: 5%;
+  width: 70%;
   border: 1px solid black;
   border-radius: 6px;
   background-color: white;
+  font-weight: 600;
+}
+.button-link{
+  text-decoration: none;
+  color: black;
 }
 .button-text {
   margin: 3%;
-  font-size: 1.5em;
+  margin-top:4%;
+  font-size: 1.7em;
 }
 ul {
   margin: 0;
   float: left;
   display: block;
+  list-style-type: none;
+  text-align: left;
+}
+.colorList{
+  margin-top: 6%;
+  margin-left: 10.5%;
+  font-size: 2em;
+  line-height: 170%;
 }

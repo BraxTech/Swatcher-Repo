@@ -15,7 +15,7 @@ function DetailsPage(props) {
         <Sidebar/>   
       
         <ColorDetailCard/>
-        <a href='/'><div className='clear-button'>Clear</div></a>
+        <a className='clear-link'href='/'><div className='clear-button'><p>Clear</p></div></a>
     </div>
   )
 }

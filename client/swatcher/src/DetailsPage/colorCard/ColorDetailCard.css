@@ -1,5 +1,5 @@
 .ColorDetailCard {
-  border: 3px whitesmoke solid;
+  border: 2px black solid;
   height: 80vh;
   width: 60vw;
   margin: 3%;
@@ -13,6 +13,8 @@
   border-radius: 0 0 6px 6px;
   font-size: 5em;
   float: right;
+  margin-top: 3.5%;
+  font-weight: 300;
 }
 .hexcode p {
   float: left;

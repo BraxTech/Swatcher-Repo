@@ -44,7 +44,7 @@ const res = await axios({
   
     }, [])
 
-    console.log(colors)
+  
     // Get current Colors for page
     const indexOfLastColor = currentPage * colorsPerPage;
     const indexOfFirstColor = indexOfLastColor - colorsPerPage

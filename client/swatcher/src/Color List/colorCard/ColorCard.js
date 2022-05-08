@@ -11,7 +11,7 @@ function ColorCard({colors, loading}) {
     <div>
     {colors.map((color)=>{
 return(
-  <a href={`/color/${color._id}`}>
+  <a key={color._id} href={`/color/${color._id}`}>
       <div className='ColorCard'>
         <div className='color' style={{backgroundColor: color.hexcode }}></div>
         <div className='hexCode'>
