@@ -13,6 +13,6 @@
   text-decoration: none;
   font-size: 2em;
 }
-.page-numberList a:active{
+.active{
   border-bottom: 1px solid black;
 }

@@ -17,3 +17,8 @@
 .clear-button p{
     margin-top: 3%;
 }
+.clear-button:hover{
+    
+  
+ background-color: goldenrod;
+}

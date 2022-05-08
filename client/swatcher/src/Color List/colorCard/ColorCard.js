@@ -1,6 +1,6 @@
 import React from 'react'
 import './ColorCard.css'
-
+import {motion} from "framer-motion"
 
 function ColorCard({colors, loading}) {
 
@@ -11,14 +11,16 @@ function ColorCard({colors, loading}) {
     <div>
     {colors.map((color)=>{
 return(
+  <motion.div className='ColorCard' whileHover={{scale:1.1}}>
   <a key={color._id} href={`/color/${color._id}`}>
-      <div className='ColorCard'>
+  
         <div className='color' style={{backgroundColor: color.hexcode }}></div>
         <div className='hexCode'>
              <p>{color.hexcode}</p>
         </div>
-    </div>
+    
     </a>
+    </motion.div>
        ) 
          })}
   
