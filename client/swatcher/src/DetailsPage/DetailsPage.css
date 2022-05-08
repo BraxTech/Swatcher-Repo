@@ -1,0 +1,8 @@
+.clear-button{
+    border: black 1px solid;
+    width:10vw;
+    margin-left: 50%;
+    height: 4.5vh;
+    margin-top: -1%;
+    font-size: 2em;
+}

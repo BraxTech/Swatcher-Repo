@@ -1,0 +1,25 @@
+.ColorDetailCard {
+  border: 3px whitesmoke solid;
+  height: 80vh;
+  width: 60vw;
+  margin: 3%;
+  border-radius: 7px;
+  display: inline-block;
+  margin-top: 1%;
+}
+.hexcode {
+  width: 100%;
+  height: 15%;
+  border-radius: 0 0 6px 6px;
+  font-size: 5em;
+  float: right;
+}
+.hexcode p {
+  float: left;
+  margin-left: 4%;
+}
+.color {
+  background-color: royalblue;
+  height: 85%;
+  border-radius: 6px 6px 0 0;
+}
