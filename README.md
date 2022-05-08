@@ -32,7 +32,7 @@ Keep track of how much time you spent on the challenge but also feel free to spe
   - Styles
   - Iconography
 - Replicate functionality
-  - Create a database of colors (minimum 100)
+  - Create a database of colors (minimum 100) - []
   - Paginate your data to show a certain number of swatches at a time
   - Display both the color swatch and the label of the color
   - Ability to select random color and modify view accordingly
